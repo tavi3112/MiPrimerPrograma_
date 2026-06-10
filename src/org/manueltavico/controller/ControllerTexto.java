@@ -4,10 +4,10 @@
  */
 package org.manueltavico.controller;
 
-/**
- *
- * @author informatica
- */
+
 public class ControllerTexto {
-    
+    public String concatenadorDeNombre
+        (String nombre, String apellido) { return nombre + " " + apellido; 
+    }
+        
 }
