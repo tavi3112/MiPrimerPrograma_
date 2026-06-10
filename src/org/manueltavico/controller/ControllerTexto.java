@@ -41,4 +41,9 @@ public class ControllerTexto {
     public String validadorDePassword
         (String password) { return (password.length() > 8) ? "Segura" : "Insegura";
         }    
+        
+        public String generadorDeEmail(String nombre, String apellido, String dominio) { return nombre.toLowerCase() + "." + apellido.toLowerCase() + "@" + dominio;
+        }
 }
+
+
