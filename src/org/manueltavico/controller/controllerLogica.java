@@ -10,4 +10,6 @@ package org.manueltavico.controller;
  */
 public class controllerLogica {
     
+
+    
 }
