@@ -42,5 +42,9 @@ public boolean verificadorDeEdad
         (double l1, double l2, double l3) { return (l1 + l2 > l3) && (l1 + l3 > l2) && (l2 + l3 > l1); 
         }
         
+        public boolean comparadorDeCadenas
+        (String s1, String s2) { return s1.equals(s2);
+        }
         
+
 }
